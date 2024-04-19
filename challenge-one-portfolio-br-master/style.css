@@ -1,0 +1,249 @@
+
+
+:root{
+    
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.menu__title {
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 32px;
+    
+}
+
+.menu__list__item {
+    border: 3px solid aqua;
+    
+}
+
+
+
+.title {
+    margin-left: 25px; 
+}
+
+.title__div {
+    display: flex;
+}
+
+.title__container {
+    vertical gap: 24px;
+}
+
+.title__bio {
+    margin-top: 3rem;
+    font-size: 52px;
+}
+
+.title__subsection {
+    margin-top: 3rem;
+}
+
+.title__network {
+    margin-top: 2rem;
+    display: flex;
+    gap: 32px;
+}
+
+.title__network__item {
+    border: 3px solid aqua;
+}
+
+
+
+.about{
+    margin-top: 7rem;
+    background-color: #EAF2FD;
+    color: #000;
+    margin-left: 25px; 
+}
+
+
+
+.skills {
+    margin-top: 99px;
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
+.skills__title {
+    color: var(--cor-de-link);
+    display: flex;
+    justify-content: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__hobbies {
+    margin-top: 69px;
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+
+.skills__img__java {
+    max-width:20px;
+    max-height:10px;
+    width: auto;
+    height: auto;
+   
+}
+
+.hobbies__title {
+    color: var(--cor-de-link);
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__line {  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.academic { 
+    flex-direction: column;
+    margin-top: 110px;
+    
+}
+
+.academic__title {
+     font-size: 23px;
+     margin-left: 42px;
+}
+
+.img__academic {
+    width: 250px;
+    margin-top: 30px;   
+}
+
+.academic__courses {
+    margin-top: 70px;   
+}
+
+
+
+.experience {
+    margin-top: 110px;
+    margin-left: 25px;
+}
+
+.experience__section__title {
+    margin-bottom: 65px;
+}
+
+.experiencie__box {
+    display: flex;
+    gap: 15px;
+   
+}
+
+.experiencie__box2 {
+    display: flex;
+    margin-top: 46px;
+    gap: 30px;
+    
+}
+
+
+
+.experience__info {
+    flex-direction: column;
+}
+
+.experience__img {
+    width: 520px;
+}
+
+.experiencia__botao--repo {
+    background-color: #22d4fd;
+}
+
+.experiencia__botao--demo {
+    background-color: #22d4fd;
+}
+
+
+
+.formcontato {
+    background-color: #EAF2FD;
+    margin-top: 25px;
+    block-size: 400px;
+    margin-left: 25px;
+}
+
+.formcontato__contacto {
+    align-items: center;
+    display: flex;
+    
+}
+
+.formcontato__img {
+    margin-top: 70px;
+    width: 260px;
+    
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+.formcontato__input {
+   background-color:burlywood;
+}
+
+.formcontato__botao {
+    background-color: #22d4fd;
+}
+
+
+
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+}
+
